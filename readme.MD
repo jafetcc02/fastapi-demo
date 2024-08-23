@@ -42,7 +42,7 @@ curl -X POST -H 'Content-Type:application/json' http://127.0.0.1:8000/items?item
 curl -X GET http://127.0.0.1:8000/items/0
 ```
 
-* Get item using Item class 
+* Post item using Item class 
 
 ```bash
 curl -X POST -H "Content-Type:application/json" -d "{\"text\": \"apple\"}" http://127.0.0.1:8000/items
